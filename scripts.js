@@ -98,7 +98,8 @@ var excuse = [
   "I'm cooking yams for my geriatric dog, Schnootzie",
   "my cat found out where I'm ticklish",
   "I broke my foot getting up from the toilet",
-  "my grandma tried to poison me"
+  "my grandma tried to poison me",
+  "I fought the law and the law won"
 ];
 var getExcuses = function () {
   var newExcuse = excuse[Math.floor(Math.random() * excuse.length)];
