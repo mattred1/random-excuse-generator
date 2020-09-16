@@ -101,7 +101,15 @@ var excuse = [
   "my grandma tried to poison me",
   "I fought the law and the law won"
 ];
-var getExcuses = function () {
-  var newExcuse = excuse[Math.floor(Math.random() * excuse.length)];
-  document.getElementById("excuseHere").innerHTML = newExcuse;
-};
+
+ 
+function addTo() { 
+   excuse.push(document.getElementById("userinput").value); 
+   console.log(excuse.length - 1); //to confirm it has been added to the array 
+} 
+
+
+function getExcuses() {
+    var newExcuse = excuse[Math.floor(Math.random() * excuse.length)];
+    document.getElementById("excuseHere").innerHTML = newExcuse;
+}
